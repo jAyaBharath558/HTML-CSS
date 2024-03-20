@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab</title>
+    <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+          <div class="form-section">
+            <h2>1. Your Contact Details</h2>
+            <input type="text" class="form-input" placeholder="Full Name">
+            <input type="text" class="form-input" placeholder="Patient Id if exists">
+            <input type="text" class="form-input" placeholder="Contact Number">
+            <input type="email" class="form-input" placeholder="Email id">
+          </div>
+        
+          <div class="form-section">
+            <h2>2. Address</h2>
+            <input type="text" class="form-input" placeholder="H-No">
+            <input type="text" class="form-input" placeholder="Street">
+            <input type="text" class="form-input" placeholder="Area">
+            <input type="text" class="form-input" placeholder="District">
+          </div>
+          <div class="form-section">
+            <h2>3. Choose the test without fail:</h2>
+            <input type="checkbox" id="cbc" name="test" value="CBC">
+            <label for="cbc">CBC (Complete Blood Count)</label>
+            <input type="checkbox" id="crp" name="test" value="CRP">
+            <label for="crp">CRP (C-Reactive Protein)</label>
+            <input type="checkbox" id="lipid" name="test" value="Lipid">
+            <label for="lipid">Lipid Profile</label>
+            <input type="checkbox" id="tsh" name="test" value="TSH">
+            <label for="tsh">Thyroid Stimulating Hormone (TSH)</label>
+            <input type="checkbox" id="glucose" name="test" value="Glucose">
+            <label for="glucose">Glucose Test</label>
+          </div>
+          <div class="form-section">
+            <h2> 4.Do you want a hard copy of the report also?</h2>
+            <input type="radio" id="yes" name="report" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="report" value="No">
+            <label for="no">No</label>
+          </div>
+          <div class="form-section">
+            <h2>5. Select Your Comfortable Date and Time:</h2>
+            <input type="date" id="date" name="date">
+            <input type="time" id="time" name="time">
+          
+          </div>
+        
+          <div class="buttons-container">
+            <input type="reset" class="form-button" value="Reset" ac >
+            <input type="submit" class="form-button" value="Submit">
+          </div>
+        </form>
+      </div>
+  
+    <footer>
+        <p>&copy; 2024 Pharmacy Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
